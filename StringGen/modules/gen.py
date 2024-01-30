@@ -223,14 +223,14 @@ async def gen_session(
 
     try:
         txt = """
-                <b>تم استخراج كود جلستك من:</b> @ENO6bot
+                <b>تم استخراج كود جلستك من:</b> @al11ibot
 نوع الجلسة: {0}
 
 <code>{1}</code>
 
-<b>المطور:</b> @VL_VD
+<b>المطور:</b> @G_7_Rr
 <b>انـتـبـه❗:</b> لا تعطي كود جلستك لأي شخص، يمكن له اختراق او حذف حسابك بواسطة الكود!
-<b>قناة المطور:</b> @YY5Y8
+<b>قناة المطور:</b> @WX_PM
 """
         if telethon:
             string_session = client.session.save()
