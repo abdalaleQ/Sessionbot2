@@ -8,16 +8,17 @@ from StringGen.utils import add_served_user, keyboard
 async def f_start(_, message: Message):
     await message.reply_text(
         text=f"""
-           ◇¦ اهلا بـك عزيـزي {message.from_user.first_name} فـي بـوت اسـتـخـراج الـجلـسـات
+           ◍ أهلا بك عزيزي {message.from_user.first_name} في بوت استخراج الجلسات
 
-◇¦ يمكنك استـخـراج التالـي
+◍ يمكنك استخراج التالي :
 
-◇¦  تـلـيـثـون 
+◍  تيليثون 
 
-◇¦ بايـروجـرام 
+◍ بايروجرام 
 
-◇¦ تم انشاء البوت بواسطة: @WX_PM """,
+◍ تم انشاء البوت بواسطة: @WX_PM """,
         reply_markup=keyboard,
         disable_web_page_preview=True,
     )
     await add_served_user(message.from_user.id)
+    
