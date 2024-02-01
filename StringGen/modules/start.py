@@ -14,7 +14,7 @@ async def f_start(_, message: Message):
 
 ◍  تيليثون 
 
-◍ بايروجرام 
+◍ بايروجرام 1 ، 2 
 
 ◍ تم انشاء البوت بواسطة: @WX_PM """,
         reply_markup=keyboard,
