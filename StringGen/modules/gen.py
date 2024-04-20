@@ -223,14 +223,14 @@ async def gen_session(
 
     try:
         txt = """
-                <b>تم استخراج كود جلستك من:</b> @al11ibot
+                <b>تم استخراج كود جلستك من:</b> @ZTTlliTBOT
 نوع الجلسة: {0}
 
 <code>{1}</code>
 
-<b>المطور:</b> @G_7_Rr
+<b>المطور:</b> @EE77n
 <b>انـتـبـه❗:</b> لا تعطي كود جلستك لأي شخص، يمكن له اختراق او حذف حسابك بواسطة الكود!
-<b>قناة المطور:</b> @WX_PM
+<b>قناة المطور:</b> @EEEW2
 """
         if telethon:
             string_session = client.session.save()
@@ -255,7 +255,7 @@ async def gen_session(
         await client.disconnect()
         await Anony.send_message(
             chat_id=user_id,
-            text=f"تم إستخراج بنجاح جلسة {ty}.\n\nمن فضلك تحقق من الرسائل المحفوظة.\n\nبوت الاستخراج بواسطة: @WX_PM.",
+            text=f"تم إستخراج بنجاح جلسة {ty}.\n\nمن فضلك تحقق من الرسائل المحفوظة.\n\nبوت الاستخراج بواسطة: @EEEW2.",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
