@@ -16,7 +16,7 @@ async def f_start(_, message: Message):
 
 ◍ بايروجرام 1 ، 2 
 
-◍ تم انشاء البوت بواسطة: @WX_PM """,
+◍ تم انشاء البوت بواسطة: @EEEW2 """,
         reply_markup=keyboard,
         disable_web_page_preview=True,
     )
